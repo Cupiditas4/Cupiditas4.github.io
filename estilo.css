@@ -133,6 +133,7 @@ body {
     cursor: pointer;
 }
 .opciones {
+    text-decoration: none;
     color: rgb(0, 0, 0);
     font-weight: 600;
     font-size: 2rem;
@@ -204,7 +205,7 @@ body {
     text-align: center;
     gap: 3rem;
     transition: 0.5s;
-    
+    justify-content: space-around;
 }
 .buzo {
     cursor: pointer;
@@ -212,7 +213,7 @@ body {
 }
 
 .buzo img{ 
-    max-width: 28rem;
+    max-width: 22rem;
   
 }
 
@@ -247,6 +248,7 @@ body {
     transition: 0.5s;
     align-items: center;
     gap: 3rem;  
+    justify-content: space-around;
 }
 
 .sextafila {
@@ -268,6 +270,7 @@ body {
     padding: 2rem;
     justify-content: space-around;
     margin: 5rem;
+    gap: 1.5rem;
 }
 
 .red1 {
@@ -332,6 +335,8 @@ body {
     align-items: center;
     padding: 2rem;
     justify-content: space-around;
+    background-color: black;
+    color: white;
     gap: 7rem;
     font-size: 1.5rem;
 }
@@ -347,4 +352,5 @@ body {
     cursor: pointer;
     transition: 0.5s;
 }
+
 
